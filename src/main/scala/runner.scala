@@ -6,6 +6,6 @@ import task.library.SalaryProcessor
 object runner {
   def main(arg: Array[String]): Unit = {
     val sc = new SalaryProcessor
-    sc.displayGrossSalary(3)
+    sc.displayGrossSalary(4)
   }
 }

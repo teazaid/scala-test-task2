@@ -12,7 +12,7 @@ class SalaryProcessorTest extends FlatSpec with Matchers {
       24.6d
     }
   }
-1
+
   it should "return salary for tuple2 with id = 2" in {
     service.getSalary(2) should be {
       30.75d

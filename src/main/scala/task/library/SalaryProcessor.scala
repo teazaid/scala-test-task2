@@ -8,7 +8,7 @@ import scala.util.Try
  * Created by Alexander on 07.12.2015.
  */
 sealed trait GrossCalculator {
-  private val k = 1.23
+  private val k = 1.23d
 
   def gross(amount: Int): Double = amount * k
 }
